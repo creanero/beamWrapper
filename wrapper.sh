@@ -17,7 +17,7 @@ fi
 #sets a variable for dreamBeam directory
 if [[ -z "${DB_DIR}" ]]; then
 	DB_DIR="${HOME}/dreamBeam"
-	echo "iLiSA directory enviroment variable not specified.  Defaulting to ${ILISA_DIR}"
+	echo "dreamBeam directory enviroment variable not specified.  Defaulting to ${DB_DIR}"
 fi
 
 #checks the ACC Folder has been specified
